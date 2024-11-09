@@ -7,10 +7,10 @@ public class PlayerScript : MonoBehaviour
     public CircleCollider2D playerCollision;
     public float movementSpeed;
 
-    private moveUp;
-    private moveLeft;
-    private moveDown;
-    private moveRight;
+    private bool moveUp;
+    private bool moveLeft;
+    private bool moveDown;
+    private bool moveRight;
 
     void Start()
     {
